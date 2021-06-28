@@ -82,7 +82,7 @@ func env() *awscdk.Environment {
 	//---------------------------------------------------------------------------
 	return &awscdk.Environment{
 		//  Account: jsii.String("123456789012"),
-		Region: jsii.String("us-east-1"),
+		Region: jsii.String(config.Conf.Region),
 	}
 
 	// Uncomment to specialize this stack for the AWS Account and Region that are
