@@ -1,0 +1,8 @@
+{
+    "go.gotoSymbol.ignoreFolders": [
+        "cdk.out",
+        "cdk.out/",
+        "*/cdk.out/*",
+        "*/cdk.out"
+    ]
+}
